@@ -1,4 +1,4 @@
-var xmlHttpRequest ;	// 这个是Ajax主要的处理对象
+		var xmlHttpRequest ;	// 这个是Ajax主要的处理对象
 		function create() {	// 该函数的主要功能是创建XmlHttpRequest对象
 			if (window.XMLHttpRequest) {	// 当前浏览器不是IE
 				xmlHttpRequest = new XMLHttpRequest() ;	// 直接创建对象
@@ -14,7 +14,7 @@ window.onload = function(){
 	xmlHttpRequest.onreadystatechange = function(){
 		//表示请求发送成功的操作
 		if(xmlHttpRequest.readyState == 4 && xmlHttpRequest.status == 200){
-
+			
 
 		}
 
